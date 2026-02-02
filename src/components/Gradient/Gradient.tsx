@@ -1,5 +1,5 @@
 import style from './Gradient.module.css';
-import type { GradientProps } from '@types/GradientProps';
+import type { GradientProps } from '@/types/GradientProps';
 
 const Gradient = ({ gradients }: GradientProps) => {
   return (

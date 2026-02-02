@@ -1,5 +1,5 @@
 import style from './Header.module.css';
-import type { GradientProps } from '@types/GradientProps';
+import type { GradientProps } from '@/types/GradientProps';
 
 const Header = ({ gradients }: GradientProps) => {
   const gradient500 = gradients['gradient-500'];

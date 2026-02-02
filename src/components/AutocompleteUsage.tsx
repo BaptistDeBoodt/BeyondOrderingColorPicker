@@ -1,6 +1,6 @@
 import Autocomplete from '@mui/material/Autocomplete';
 import TextField from '@mui/material/TextField';
-import type { AutocompleteUsageProps } from '@types/AutocompleteUsageProps';
+import type { AutocompleteUsageProps } from '@/types/AutocompleteUsageProps';
 
 const AutocompleteUsage = ({ 
   options,
@@ -14,7 +14,7 @@ const AutocompleteUsage = ({
       disablePortal
       options={options}
       value={value}
-      onChange={(event, newValue) => onChange(newValue)}
+      onChange={(_, newValue) => onChange(newValue)}
       sx={{ width: 300 }}
       renderInput={(params) => (
         <TextField

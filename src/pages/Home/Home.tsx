@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import style from './Home.module.css';
 
-import ColorPicker from '@components/ColorPicker';
-import Header from '@components/Header/Header';
-import Gradient from '@components/Gradient/Gradient';
-import ButtonUsage from '@components/ButtonUsage';
-import AutocompleteUsage from '@components/AutocompleteUsage';
+import ColorPicker from '@/components/ColorPicker';
+import Header from '@/components/Header/Header';
+import Gradient from '@/components/Gradient/Gradient';
+import ButtonUsage from '@/components/ButtonUsage';
+import AutocompleteUsage from '@/components/AutocompleteUsage';
 
-import { useGradient } from '@hooks/useGradient';
+import { useGradient } from '@/hooks/useGradient';
 
 const areas = ['terras', 'upstairs', 'downstairs', 'garden', 'pool'];
 const tableNumbers = ['1', '2', '3', '4', '5'];

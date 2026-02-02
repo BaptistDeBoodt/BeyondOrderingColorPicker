@@ -1,5 +1,5 @@
 import { CompactPicker } from 'react-color';
-import type { ColorPickerProps } from '@types/ColorPickerProps';
+import type { ColorPickerProps } from '@/types/ColorPickerProps';
 
 const ColorPicker = ({ color, onChange }: ColorPickerProps) => {
   return (

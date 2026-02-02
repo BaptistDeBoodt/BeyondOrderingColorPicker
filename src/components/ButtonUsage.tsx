@@ -1,5 +1,5 @@
 import Button from '@mui/material/Button';
-import type { GradientProps } from '@types/GradientProps';
+import type { GradientProps } from '@/types/GradientProps';
 
 const ButtonUsage = ({ gradients }: GradientProps) => {
   return (
